@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../bg4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container{
+  margin-top: 2%;
+  padding: 0 1rem;
+  box-shadow: inset;
+  border-radius: 5%;
+}
+
+h1{
+  margin: 0 0 2rem 0;
+  text-align: center;
+  color: whitesmoke;
+  font-weight: 40rem;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.top{
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+input{
+  border: none;
+  outline: none;
+  width: 500px;
+  padding: 0.5rem;
+  border-bottom: 1px solid #000;
+  background-color: gainsboro;
+}
+
+.add{
+  background-color: #7393B3;
+  color: black;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  border-radius: 15%;
+  font-weight: 600;
+}
+
+.todo{
+  position: relative;
+  margin-top: 1rem;
+  background-color: whitesmoke;
+  color: black;
+  padding: 1.5rem 3rem;
+  border-radius: 5px;
+}
+
+.icons{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.icon{
+  cursor: pointer;
+  font-size: 25px;
+}
+.list{
+  padding-bottom: 1rem;
+  padding: 0 5rem;
+  font-size: large;
+}
+h3{
+  color: whitesmoke;
+  font-weight: 40rem;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
